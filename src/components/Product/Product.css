@@ -1,0 +1,99 @@
+.container {
+    margin: 2rem auto;
+    display: flex;
+    max-width: 820px;
+    padding:2rem 4rem;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 2px 2px 8px 0px rgba(0,0,0,0.46);
+}
+
+p {
+    margin: 1.5rem 0;
+}
+
+hr {
+    border: none;
+    background-color: #e4e4e4;
+    height: 1px;
+    margin-top: 1.5rem; 
+}
+
+.imgContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:55%;
+}
+.zoomIcon {
+    position: absolute;
+    top:60px;
+    right:10px;
+}
+
+.description {
+    width: 45%;
+    padding-left:2rem;
+}
+
+.description h1 {
+    margin-top:0;
+    font-size: 2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin-right: 10px;
+}
+
+.category {
+    font-size: 0.8rem;
+}
+
+.productImg {
+    width: 100%;
+}
+
+.greenText {
+    color: rgb(8, 161, 8)
+}
+
+.arrowBtns span{
+    border: 2px solid black;
+    display:block;
+    padding: 0.6rem;
+    width:10px;
+    height:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.counter {
+    display: flex;
+}
+
+.counter span {
+    border: 1px solid lightgrey;
+    display:block;
+    padding: 0.85rem;
+    width:7px;
+    height: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flexRow {
+    display:flex;
+}
+
+.mg-r-15 {
+    margin-right: 15px;
+}
+
